@@ -1,0 +1,51 @@
+/*Modificaciones Carrusel*/
+.carousel-indicators {
+    bottom: -50px;
+    z-index: 0;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #911639;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #911639;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    background-color: #911639;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #911639;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #911639;
+}
